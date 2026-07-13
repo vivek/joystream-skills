@@ -1,5 +1,5 @@
 ---
-name: repo-activity-summary
+name: github-repo-activity-summary
 description: Summarize what changed in one or more GitHub repositories over a lookback window — merged PRs, opened PRs, and notable commits — as a short, human-readable digest rather than a raw dump of titles.
 compatibility: claude
 license: MIT
@@ -18,7 +18,7 @@ repositories. This is the "repo changes" half of a team news digest: it answers
 *"what did we ship and what's in flight?"* — **not** a copy-paste of every PR
 title. It only reads and summarizes — it returns a digest and posts nowhere, so
 the agent that runs it chooses the destination. Reusable on its own or alongside
-`project-ticket-summary`.
+`github-project-ticket-summary`.
 
 # Inputs
 

@@ -1,5 +1,5 @@
 ---
-name: project-ticket-summary
+name: github-project-ticket-summary
 description: Summarize ticket movement on a GitHub Project over a lookback window — what closed, what moved status, what got opened — with a one-line gist of the actual work behind each closed ticket instead of just its title.
 compatibility: claude
 license: MIT
@@ -18,7 +18,7 @@ Produce a concise summary of ticket activity on a GitHub Project. This is the
 what's newly on the board?"* — e.g. "closed 5 tickets yesterday, here's the gist
 of each." It only reads and summarizes — it returns a digest and posts nowhere, so
 the agent that runs it chooses the destination. Reusable on its own or alongside
-`repo-activity-summary`.
+`github-repo-activity-summary`.
 
 # Inputs
 
